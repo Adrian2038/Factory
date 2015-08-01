@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1506E41B631A320096F78C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1506E31B631A320096F78C /* main.m */; };
+		8B1506E71B631A320096F78C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1506E61B631A320096F78C /* AppDelegate.m */; };
+		8B1506EA1B631A320096F78C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1506E91B631A320096F78C /* ViewController.m */; };
+		8B1506ED1B631A320096F78C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1506EB1B631A320096F78C /* Main.storyboard */; };
+		8B1506EF1B631A320096F78C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1506EE1B631A320096F78C /* Images.xcassets */; };
+		8B1506F21B631A320096F78C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1506F01B631A320096F78C /* LaunchScreen.xib */; };
+		8B1506FE1B631A330096F78C /* FactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1506FD1B631A330096F78C /* FactoryTests.m */; };
+		8B1507091B631A760096F78C /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1507081B631A760096F78C /* PizzaStore.m */; };
+		8B15070C1B631ABF0096F78C /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15070B1B631ABF0096F78C /* Pizza.m */; };
+		8B1507111B631D080096F78C /* NYPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1507101B631D080096F78C /* NYPizzaStore.m */; };
+		8B1507141B631D280096F78C /* ChicagoPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1507131B631D280096F78C /* ChicagoPizzaStore.m */; };
+		8B1507171B631D510096F78C /* MexiicoPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1507161B631D510096F78C /* MexiicoPizzaStore.m */; };
+		8B15071A1B631DC20096F78C /* NYChessPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1507191B631DC20096F78C /* NYChessPizza.m */; };
+		8B15071D1B631DD20096F78C /* NYVeggiPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15071C1B631DD20096F78C /* NYVeggiPizza.m */; };
+		8B1507201B631DE10096F78C /* NYClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15071F1B631DE10096F78C /* NYClamPizza.m */; };
+		8B1507281B6322EB0096F78C /* ChicagoChessPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1507271B6322EB0096F78C /* ChicagoChessPizza.m */; };
+		8B15072B1B6322FA0096F78C /* ChicagoVeggiPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15072A1B6322FA0096F78C /* ChicagoVeggiPizza.m */; };
+		8B15072E1B6323070096F78C /* ChicagoClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15072D1B6323070096F78C /* ChicagoClamPizza.m */; };
+		8B1507311B6323160096F78C /* MexicoChessPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1507301B6323160096F78C /* MexicoChessPizza.m */; };
+		8B1507341B6323280096F78C /* MexicoVeggiPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1507331B6323280096F78C /* MexicoVeggiPizza.m */; };
+		8B1507371B6323370096F78C /* MexicoClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1507361B6323370096F78C /* MexicoClamPizza.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B1506F81B631A330096F78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B1506D61B631A320096F78C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B1506DD1B631A320096F78C;
+			remoteInfo = Factory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B1506DE1B631A320096F78C /* Factory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Factory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1506E21B631A320096F78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1506E31B631A320096F78C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B1506E51B631A320096F78C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B1506E61B631A320096F78C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B1506E81B631A320096F78C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B1506E91B631A320096F78C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B1506EC1B631A320096F78C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B1506EE1B631A320096F78C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B1506F11B631A320096F78C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B1506F71B631A330096F78C /* FactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1506FC1B631A330096F78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1506FD1B631A330096F78C /* FactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryTests.m; sourceTree = "<group>"; };
+		8B1507071B631A760096F78C /* PizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		8B1507081B631A760096F78C /* PizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
+		8B15070A1B631ABF0096F78C /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		8B15070B1B631ABF0096F78C /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		8B15070F1B631D080096F78C /* NYPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPizzaStore.h; sourceTree = "<group>"; };
+		8B1507101B631D080096F78C /* NYPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPizzaStore.m; sourceTree = "<group>"; };
+		8B1507121B631D280096F78C /* ChicagoPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoPizzaStore.h; sourceTree = "<group>"; };
+		8B1507131B631D280096F78C /* ChicagoPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoPizzaStore.m; sourceTree = "<group>"; };
+		8B1507151B631D510096F78C /* MexiicoPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MexiicoPizzaStore.h; sourceTree = "<group>"; };
+		8B1507161B631D510096F78C /* MexiicoPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MexiicoPizzaStore.m; sourceTree = "<group>"; };
+		8B1507181B631DC20096F78C /* NYChessPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYChessPizza.h; sourceTree = "<group>"; };
+		8B1507191B631DC20096F78C /* NYChessPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYChessPizza.m; sourceTree = "<group>"; };
+		8B15071B1B631DD20096F78C /* NYVeggiPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYVeggiPizza.h; sourceTree = "<group>"; };
+		8B15071C1B631DD20096F78C /* NYVeggiPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYVeggiPizza.m; sourceTree = "<group>"; };
+		8B15071E1B631DE10096F78C /* NYClamPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYClamPizza.h; sourceTree = "<group>"; };
+		8B15071F1B631DE10096F78C /* NYClamPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYClamPizza.m; sourceTree = "<group>"; };
+		8B1507251B631F220096F78C /* FactoryPCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryPCH.pch; sourceTree = "<group>"; };
+		8B1507261B6322EB0096F78C /* ChicagoChessPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoChessPizza.h; sourceTree = "<group>"; };
+		8B1507271B6322EB0096F78C /* ChicagoChessPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoChessPizza.m; sourceTree = "<group>"; };
+		8B1507291B6322FA0096F78C /* ChicagoVeggiPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoVeggiPizza.h; sourceTree = "<group>"; };
+		8B15072A1B6322FA0096F78C /* ChicagoVeggiPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoVeggiPizza.m; sourceTree = "<group>"; };
+		8B15072C1B6323070096F78C /* ChicagoClamPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoClamPizza.h; sourceTree = "<group>"; };
+		8B15072D1B6323070096F78C /* ChicagoClamPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoClamPizza.m; sourceTree = "<group>"; };
+		8B15072F1B6323160096F78C /* MexicoChessPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MexicoChessPizza.h; sourceTree = "<group>"; };
+		8B1507301B6323160096F78C /* MexicoChessPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MexicoChessPizza.m; sourceTree = "<group>"; };
+		8B1507321B6323280096F78C /* MexicoVeggiPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MexicoVeggiPizza.h; sourceTree = "<group>"; };
+		8B1507331B6323280096F78C /* MexicoVeggiPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MexicoVeggiPizza.m; sourceTree = "<group>"; };
+		8B1507351B6323370096F78C /* MexicoClamPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MexicoClamPizza.h; sourceTree = "<group>"; };
+		8B1507361B6323370096F78C /* MexicoClamPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MexicoClamPizza.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B1506DB1B631A320096F78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1506F41B631A330096F78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B1506D51B631A320096F78C = {
+			isa = PBXGroup;
+			children = (
+				8B1506E01B631A320096F78C /* Factory */,
+				8B1506FA1B631A330096F78C /* FactoryTests */,
+				8B1506DF1B631A320096F78C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B1506DF1B631A320096F78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B1506DE1B631A320096F78C /* Factory.app */,
+				8B1506F71B631A330096F78C /* FactoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B1506E01B631A320096F78C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				8B1506E81B631A320096F78C /* ViewController.h */,
+				8B1506E91B631A320096F78C /* ViewController.m */,
+				8B15070E1B631CAE0096F78C /* PizzaStore */,
+				8B15070D1B631CAB0096F78C /* Pizza */,
+				8B1506EB1B631A320096F78C /* Main.storyboard */,
+				8B1506EE1B631A320096F78C /* Images.xcassets */,
+				8B1506F01B631A320096F78C /* LaunchScreen.xib */,
+				8B1506E11B631A320096F78C /* Supporting Files */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		8B1506E11B631A320096F78C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B1506E51B631A320096F78C /* AppDelegate.h */,
+				8B1506E61B631A320096F78C /* AppDelegate.m */,
+				8B1506E21B631A320096F78C /* Info.plist */,
+				8B1506E31B631A320096F78C /* main.m */,
+				8B1507251B631F220096F78C /* FactoryPCH.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B1506FA1B631A330096F78C /* FactoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B1506FD1B631A330096F78C /* FactoryTests.m */,
+				8B1506FB1B631A330096F78C /* Supporting Files */,
+			);
+			path = FactoryTests;
+			sourceTree = "<group>";
+		};
+		8B1506FB1B631A330096F78C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B1506FC1B631A330096F78C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B15070D1B631CAB0096F78C /* Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				8B15070A1B631ABF0096F78C /* Pizza.h */,
+				8B15070B1B631ABF0096F78C /* Pizza.m */,
+				8B1507181B631DC20096F78C /* NYChessPizza.h */,
+				8B1507191B631DC20096F78C /* NYChessPizza.m */,
+				8B15071B1B631DD20096F78C /* NYVeggiPizza.h */,
+				8B15071C1B631DD20096F78C /* NYVeggiPizza.m */,
+				8B15071E1B631DE10096F78C /* NYClamPizza.h */,
+				8B15071F1B631DE10096F78C /* NYClamPizza.m */,
+				8B1507261B6322EB0096F78C /* ChicagoChessPizza.h */,
+				8B1507271B6322EB0096F78C /* ChicagoChessPizza.m */,
+				8B1507291B6322FA0096F78C /* ChicagoVeggiPizza.h */,
+				8B15072A1B6322FA0096F78C /* ChicagoVeggiPizza.m */,
+				8B15072C1B6323070096F78C /* ChicagoClamPizza.h */,
+				8B15072D1B6323070096F78C /* ChicagoClamPizza.m */,
+				8B15072F1B6323160096F78C /* MexicoChessPizza.h */,
+				8B1507301B6323160096F78C /* MexicoChessPizza.m */,
+				8B1507321B6323280096F78C /* MexicoVeggiPizza.h */,
+				8B1507331B6323280096F78C /* MexicoVeggiPizza.m */,
+				8B1507351B6323370096F78C /* MexicoClamPizza.h */,
+				8B1507361B6323370096F78C /* MexicoClamPizza.m */,
+			);
+			name = Pizza;
+			sourceTree = "<group>";
+		};
+		8B15070E1B631CAE0096F78C /* PizzaStore */ = {
+			isa = PBXGroup;
+			children = (
+				8B1507071B631A760096F78C /* PizzaStore.h */,
+				8B1507081B631A760096F78C /* PizzaStore.m */,
+				8B15070F1B631D080096F78C /* NYPizzaStore.h */,
+				8B1507101B631D080096F78C /* NYPizzaStore.m */,
+				8B1507121B631D280096F78C /* ChicagoPizzaStore.h */,
+				8B1507131B631D280096F78C /* ChicagoPizzaStore.m */,
+				8B1507151B631D510096F78C /* MexiicoPizzaStore.h */,
+				8B1507161B631D510096F78C /* MexiicoPizzaStore.m */,
+			);
+			name = PizzaStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B1506DD1B631A320096F78C /* Factory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1507011B631A330096F78C /* Build configuration list for PBXNativeTarget "Factory" */;
+			buildPhases = (
+				8B1506DA1B631A320096F78C /* Sources */,
+				8B1506DB1B631A320096F78C /* Frameworks */,
+				8B1506DC1B631A320096F78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Factory;
+			productName = Factory;
+			productReference = 8B1506DE1B631A320096F78C /* Factory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B1506F61B631A330096F78C /* FactoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1507041B631A330096F78C /* Build configuration list for PBXNativeTarget "FactoryTests" */;
+			buildPhases = (
+				8B1506F31B631A330096F78C /* Sources */,
+				8B1506F41B631A330096F78C /* Frameworks */,
+				8B1506F51B631A330096F78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B1506F91B631A330096F78C /* PBXTargetDependency */,
+			);
+			name = FactoryTests;
+			productName = FactoryTests;
+			productReference = 8B1506F71B631A330096F78C /* FactoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B1506D61B631A320096F78C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = William;
+				TargetAttributes = {
+					8B1506DD1B631A320096F78C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8B1506F61B631A330096F78C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8B1506DD1B631A320096F78C;
+					};
+				};
+			};
+			buildConfigurationList = 8B1506D91B631A320096F78C /* Build configuration list for PBXProject "Factory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B1506D51B631A320096F78C;
+			productRefGroup = 8B1506DF1B631A320096F78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B1506DD1B631A320096F78C /* Factory */,
+				8B1506F61B631A330096F78C /* FactoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B1506DC1B631A320096F78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1506ED1B631A320096F78C /* Main.storyboard in Resources */,
+				8B1506F21B631A320096F78C /* LaunchScreen.xib in Resources */,
+				8B1506EF1B631A320096F78C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1506F51B631A330096F78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B1506DA1B631A320096F78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1506EA1B631A320096F78C /* ViewController.m in Sources */,
+				8B1507111B631D080096F78C /* NYPizzaStore.m in Sources */,
+				8B1507341B6323280096F78C /* MexicoVeggiPizza.m in Sources */,
+				8B15072E1B6323070096F78C /* ChicagoClamPizza.m in Sources */,
+				8B15072B1B6322FA0096F78C /* ChicagoVeggiPizza.m in Sources */,
+				8B1507281B6322EB0096F78C /* ChicagoChessPizza.m in Sources */,
+				8B15071D1B631DD20096F78C /* NYVeggiPizza.m in Sources */,
+				8B1507201B631DE10096F78C /* NYClamPizza.m in Sources */,
+				8B1507371B6323370096F78C /* MexicoClamPizza.m in Sources */,
+				8B1507311B6323160096F78C /* MexicoChessPizza.m in Sources */,
+				8B15071A1B631DC20096F78C /* NYChessPizza.m in Sources */,
+				8B1506E71B631A320096F78C /* AppDelegate.m in Sources */,
+				8B1507091B631A760096F78C /* PizzaStore.m in Sources */,
+				8B1507141B631D280096F78C /* ChicagoPizzaStore.m in Sources */,
+				8B15070C1B631ABF0096F78C /* Pizza.m in Sources */,
+				8B1506E41B631A320096F78C /* main.m in Sources */,
+				8B1507171B631D510096F78C /* MexiicoPizzaStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1506F31B631A330096F78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1506FE1B631A330096F78C /* FactoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B1506F91B631A330096F78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B1506DD1B631A320096F78C /* Factory */;
+			targetProxy = 8B1506F81B631A330096F78C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B1506EB1B631A320096F78C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1506EC1B631A320096F78C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B1506F01B631A320096F78C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1506F11B631A320096F78C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B1506FF1B631A330096F78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = Factory/FactoryPCH.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B1507001B631A330096F78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = Factory/FactoryPCH.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B1507021B631A330096F78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Factory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B1507031B631A330096F78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Factory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B1507051B631A330096F78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Factory.app/Factory";
+			};
+			name = Debug;
+		};
+		8B1507061B631A330096F78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Factory.app/Factory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B1506D91B631A320096F78C /* Build configuration list for PBXProject "Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1506FF1B631A330096F78C /* Debug */,
+				8B1507001B631A330096F78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1507011B631A330096F78C /* Build configuration list for PBXNativeTarget "Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1507021B631A330096F78C /* Debug */,
+				8B1507031B631A330096F78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B1507041B631A330096F78C /* Build configuration list for PBXNativeTarget "FactoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1507051B631A330096F78C /* Debug */,
+				8B1507061B631A330096F78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B1506D61B631A320096F78C /* Project object */;
+}
